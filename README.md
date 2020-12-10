@@ -9,7 +9,7 @@ Inspired by the Katamino [board game](https://en.gigamic.com/game/katamino) and 
 ### Demo in the browser:
 [Link](https://katamino.z22.web.core.windows.net/)
 ### Demo video:
-[Link](#)
+[Link](https://www.youtube.com/watch?v=XhVdA36NdsQ&feature=youtu.be)
 
 ## Getting Started
 
