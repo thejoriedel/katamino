@@ -60,4 +60,12 @@ or as the binary digit `0000111011000000`, represented in a 4x4 matrix as follow
 
 With this data, we can then assemble a Katamino game of 3 pieces, each with its own rotation array, color, and extensibly with an x and y coordinate as well as the current rotation index.
 
-Central to the game updates is 
+Central to the game updates is the `current_mino` pointer, the `board` array, and the `current_mino_index`. The current_mino points to the current pentamino in the `penta` array, or game set, and determines which pentamino is active for the user to move. On a tab, the user can rotate through the different pentaminos to play the game. 
+
+Rendering pentamino squares creates a `render_queue` of x and y coordinates which to color based on the current coordinates of the `Mino` struct.
+
+### Outlook:
+Potential future efforts include
+- implementing leveling system up to PENTA sets of 12 pieces each Katamino game
+- adding audio based on game state
+
