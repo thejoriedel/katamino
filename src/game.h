@@ -1,14 +1,13 @@
 #include "defs.h"
 #include "graphics.h"
 
-
 #ifndef _GAME_CONSTANTS
 #define _GAME_CONSTANTS
 
 typedef struct {
     // Array of hexadecimal representations of rotations
     uint16_t rotation[4];
-    // RGBA convention: 0xAABBGGRR
+    // RGBA: 0xAABBGGRR
     uint32_t color;
 
 } Pentamino;
@@ -41,28 +40,21 @@ typedef enum {
     RIGHT,
     SPACE,
     TAB,
-    RESTART,
-    MOUSEMOTION,
-    MOUSEUP,
-    MOUSEDOWN
+    RESTART
 } Action;
 
 typedef enum {
     EMPTY = 0xFFF5F5F5,
-    TEAL = 0xFFD97400,
     BLUE = 0xFFFFDB7F,
     ORANGE = 0XFF1B85FF,
     YELLOW = 0xFF00DCFF,
     GREEN = 0xFF40CC2E,
-    PURPLE = 0xFF4B1485,
 	GRAY = 0xFFA0A0A0,
 	PINK = 0xFFE97CC9,
 	BROWN = 0xFF9E6230
 
 } Color_Block;
 
-// SDL_Point mousePos;
-// SDL_Point clickOffset;
 static bool leftMouseButtonDown = false;
 static Mino *SELECTED_MINO = NULL;
 
@@ -130,8 +122,5 @@ void init_game();
 void update_game();
 
 bool render_current_mino();
-bool mouse_in_mino(SDL_Point mouse, uint8_t mino_coords[]);
 bool can_render_mino(uint16_t render_queue[]);
 void handle_user_events();
-
-

@@ -9,4 +9,3 @@ SDL_Texture *display;
 bool render_changed;
 void main_loop();
 void cleanup();
-

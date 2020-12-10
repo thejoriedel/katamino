@@ -13,7 +13,7 @@
 
 - **SDL2**: To create the graphics for the game, I chose SDL2 because it's a cross-platform library with better portability on Windows that offers a range of low-level access to keyboard, mouse, audio and graphics.
 
-- **WebAssembly**: As a relatively newer low-level binary format that can run natively in the browser, I chose to target the browser with C code as a demonstration of the huge portability that wasm files bring to the browser.
+- **WebAssembly**: As a low-level binary format that can run natively in the browser, I chose to target the browser with C code as a demonstration of the portability, speed, and memory-safety features that the wasm file format bring to the browser.
 
 - **Emscripten**: Although there are other clang/LLVM toolchains to compile code to WebAssembly, Emscripten has been the de facto compiler of choice with its full  toolchain support and history of collaboration with the WebAssembly working group.
 

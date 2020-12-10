@@ -15,8 +15,6 @@
 
 #define BLOCK_SIZE 20
 
-// #define BOARD_HEIGHT 5
-// #define BOARD_WIDTH 3
 #define BOARD_WIDTH 31
 #define BOARD_HEIGHT 23
 

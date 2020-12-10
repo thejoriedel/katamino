@@ -2,9 +2,14 @@
 
 A puzzle game written in C compiled to [WebAssembly](https://webassembly.org/) for the browser.
 
-Play by moving a set of pentaminos into complete rectangle.
+Play by moving a set of pentaminos into a complete rectangle.
 
 Inspired by the Katamino [board game](https://en.gigamic.com/game/katamino) and adapted from [this](https://github.com/dashed/tetris-sdl-c) tetris game.
+
+### Demo in the browser:
+[Link](https://katamino.z22.web.core.windows.net/)
+### Demo video:
+[Link](#)
 
 ## Getting Started
 
